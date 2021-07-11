@@ -6,11 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
 // == Import
-//import Header from 'src/containers/Header';
+import Header from 'src/components/Header';
 
 // == Composant
 const Oquizz = () => (
-  <div className="title">
+  
+  <div className="oquizz">
+    <Header />
     <h1>Homepage disconnected</h1>
   </div>
 );
