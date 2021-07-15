@@ -1,0 +1,49 @@
+@use 'src/styles/vars';
+
+.imgscrubs {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 6px solid rgba(0,0,0,.125);
+    border-radius: .75rem;
+}
+
+.text-quizz {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.quizzbot {
+    margin-top: 17em;
+}
+
+@media screen and (max-width: 1024px){
+    .header{
+      .navbar{
+        .form-inline{
+          display: none;
+        }
+        .header__profil{
+          display: none;
+        }
+        &-nav{
+          display: flex;
+        }
+      }
+    }
+  }
